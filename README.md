@@ -1,2 +1,3 @@
 # Team Roboto 447
-This is the start of the website.
+Welcome to Team Roboto 447
+To learn more about us, click here
