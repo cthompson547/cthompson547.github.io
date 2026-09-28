@@ -37,5 +37,13 @@
     <main class="site-content">
       {{ content }}
     </main>
+
+    <footer class="site-footer">
+      <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+      <p>
+        <a href="https://github.com/{{ site.github_username | default: 'cthompson547' }}">GitHub</a> •
+        <a href="mailto:{{ site.email | default: 'cthompson547@gmail.com' }}">Email</a>
+      </p>
+    </footer>
   </body>
 </html>
