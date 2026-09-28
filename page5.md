@@ -1,2 +1,2 @@
-# page5
-the fifth page for this informative website.
+# Donate to us
+Donations are appreciated and helps grow our budget for future competition robots.
