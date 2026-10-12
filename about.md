@@ -10,11 +10,11 @@ FIRST Robotics Competition is a branching program from FIRST (For Inspiration an
 
 ![WebsiteFRCImageWiki](./WebsiteFRCImageWiki.png)
 
-Image of the FIRST Robotics Competition logo. Retrieved from Wikipedia: [Clickable text here](https://en.wikipedia.org/wiki/FIRST_Robotics_Competition)
+Image of the FIRST Robotics Competition logo. Retrieved from [Wikipedia](https://en.wikipedia.org/wiki/FIRST_Robotics_Competition).
 
 ![WebsiteFIRSTImageWiki](./WebsiteFIRSTImageWiki.png)
 
-Image of FIRST (For Inspiration and Recognition of Science and Technology) logo. Retrieved from Wikipedia: [Clickable text here](https://en.wikipedia.org/wiki/For_Inspiration_and_Recognition_of_Science_and_Technology)
+Image of FIRST (For Inspiration and Recognition of Science and Technology) logo. Retrieved from [Wikipedia](https://en.wikipedia.org/wiki/For_Inspiration_and_Recognition_of_Science_and_Technology).
 
 # How can you join 447?
 
