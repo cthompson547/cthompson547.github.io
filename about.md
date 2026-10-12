@@ -2,11 +2,15 @@
 
 447 is a robotics team that participates in FIRST Robotics Competiton (FRC). Robotic teams in FRC are mostly ran by highschoolers with supervision from the mentors.
 
+![WebsiteFRCImageWiki](./WebsiteFRCImageWiki.png)
+
+![WebsiteFIRSTImageWiki](./WebsiteFIRSTImageWiki.png)
+
 We are actively trying to find new high schoolers to join the team and build great engineering skills.
 
 # What is FRC?
 
-FIRST Robotics Competition is a branching program from FIRST (For Inspiration and Recognition of Science and Technology) that also has two other branching programs for ages below high school, which are FLL (FIRST Lego League), and FTC (FIRST Tech Challenge).
+FIRST Robotics Competition is a branching program from FIRST (For Inspiration and Recognition of Science and Technology) that also has two other branching programs for ages below high school, which are [some text truncated in source]? 
 
 # How can you join 447?
 
