@@ -9,10 +9,12 @@ We are actively trying to find new high schoolers to join the team and build gre
 FIRST Robotics Competition is a branching program from FIRST (For Inspiration and Recognition of Science and Technology) that also has two other branching programs for ages below high school, which are [some text truncated in source]? 
 
 ![WebsiteFRCImageWiki](./WebsiteFRCImageWiki.png)
-Image of the FIRST Robotics Competition logo.
+
+Image of the FIRST Robotics Competition logo. Retrieved from Wikipedia: [Clickable text here](https://en.wikipedia.org/wiki/FIRST_Robotics_Competition)
 
 ![WebsiteFIRSTImageWiki](./WebsiteFIRSTImageWiki.png)
-Image of FIRST (For Inspiration and Recognition of Science and Technology) logo
+
+Image of FIRST (For Inspiration and Recognition of Science and Technology) logo. Retrieved from Wikipedia: [Clickable text here](https://en.wikipedia.org/wiki/For_Inspiration_and_Recognition_of_Science_and_Technology)
 
 # How can you join 447?
 
