@@ -6,7 +6,7 @@ We are actively trying to find new high schoolers to join the team and build gre
 
 # What is FRC?
 
-FIRST Robotics Competition is a branching program from FIRST (For Inspiration and Recognition of Science and Technology) that also has two other branching programs for ages below high school, which are [some text truncated in source]? 
+FIRST Robotics Competition is a branching program from FIRST (For Inspiration and Recognition of Science and Technology) that also has two other branching programs for grades below high school: FIRST Tech challenge and FIRST Lego League.
 
 ![WebsiteFRCImageWiki](./WebsiteFRCImageWiki.png)
 
