@@ -6,6 +6,6 @@ If you are interested in joining 447, please fill out the Google Form below.
 
 > Replace the example Google Form URL below with your real form link from Google Forms.
 
-<iframe src="https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform?embedded=true" width="100%" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScx4YDCjU2LxPNLpNtCzfmBsDxJaj-NVwLTLHLFBQYEQn1uRw/viewform?usp=publish-editor" width="100%" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 If you do not have a Google Form yet, create one in Google Drive, then open the form and click the "Send" button → "Embed" to copy the embed URL and replace "YOUR_FORM_ID" in the src above.
