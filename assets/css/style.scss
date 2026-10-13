@@ -124,13 +124,16 @@ p {
 }
 
 .site-footer {
-  margin-left: 0px;
+  margin-left: 280px;
+  width: calc(100% - 280px);
+
   padding: 40px 48px;
   text-align: center;
   border-top: 1px solid #e5e5e5;
   background-color: #f9f9f9;
   font-size: 14px;
   color: #666;
+  box-sizing: border-box;
 }
 
 .site-footer p {
@@ -164,6 +167,7 @@ p {
 
   .site-footer {
     margin-left: 240px;
+    width: calc(100% - 240px);
   }
 }
 
@@ -206,8 +210,9 @@ p {
   }
 
   .site-footer {
-    margin-right: 0;
-    padding: 0px 0px;
+    margin-left: 0;
+    width: 100%;
+    padding: 24px 20px;
   }
 
   .site-content h1 {
@@ -238,6 +243,8 @@ p {
   }
 
   .site-footer {
+    width: 100%;
+    padding: 16px;
     font-size: 14px;
     color: #666;
     line-height: 1.5;
