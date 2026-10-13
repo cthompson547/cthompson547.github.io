@@ -132,7 +132,7 @@ p {
 
 .site-footer {
   position: relative;
-  width: 100%;
+  width: 240px;
   box-sizing: border-box;
   padding: 20px 24px 18px;
   text-align: center;
@@ -180,9 +180,9 @@ p {
 
   .site-sidebar {
     position: static;
-    width: 100%;
+    width: 240px;
     height: auto;
-    max-height: none;
+    max-height: 120px;
     padding: 20px 20px 0;
     border-right: 0;
     border-bottom: 1px solid #e5e5e5;
@@ -249,7 +249,8 @@ p {
   }
 
   .site-footer {
-    width: 100%;
+    width: 240px;
+    height: 120px;
     padding: 16px;
     font-size: 14px;
     color: #666;
