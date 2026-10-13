@@ -34,7 +34,8 @@ p {
   flex-direction: column;
   overflow: hidden;
   box-sizing: border-box;
-  padding: 32px 24px 0;
+  /* leave room at the bottom so fixed footer doesn't overlap sidebar content */
+  padding: 32px 24px 300px;
   background: #f4f7f9;
   border-right: 1px solid #e5e5e5;
   flex-shrink: 0;
@@ -108,6 +109,8 @@ p {
   min-height: 100vh;
   width: calc(100% - 280px);
   overflow-y: auto;
+  /* leave room at the bottom so content isn't hidden behind the fixed footer */
+  margin-bottom: 280px;
 }
 
 .site-content h1,
@@ -130,17 +133,22 @@ p {
   padding-bottom: 8px;
 }
 
+/* Footer fixed to bottom-left and sized 280x280 */
 .site-footer {
-  position: relative;
-  width: 240px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 280px;
+  height: 280px;
   box-sizing: border-box;
-  padding: 20px 24px 18px;
+  padding: 20px;
   text-align: center;
   border-top: 1px solid #e5e5e5;
   background-color: #f9f9f9;
   font-size: 14px;
   color: #666;
   flex-shrink: 0;
+  z-index: 10;
 }
 
 .site-footer p {
@@ -170,6 +178,14 @@ p {
     margin-left: 240px;
     width: calc(100% - 240px);
     padding: 32px 40px;
+    margin-bottom: 240px; /* match footer width on smaller sidebar */
+  }
+
+  /* keep footer fixed but match sidebar width on medium screens */
+  .site-footer {
+    left: 0;
+    width: 240px;
+    height: 240px;
   }
 }
 
@@ -214,20 +230,18 @@ p {
     width: 100%;
     padding: 20px;
     min-height: auto;
+    margin-bottom: 0; /* footer will become static below */
   }
 
+  /* On small screens make footer part of the normal flow */
   .site-footer {
+    position: static;
     width: 100%;
+    height: auto;
     padding: 24px 20px;
-  }
-
-  .site-content h1 {
-    font-size: 24px;
-    margin-top: 24px;
-  }
-
-  .site-content h2 {
-    font-size: 20px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    z-index: auto;
   }
 }
 
@@ -249,12 +263,15 @@ p {
   }
 
   .site-footer {
+    /* allow a compact footer on very small screens */
     width: 240px;
     height: 120px;
     padding: 16px;
     font-size: 14px;
     color: #666;
     line-height: 1.5;
+    position: static;
+    margin: 16px auto 0;
   }
 
   .site-footer p {
